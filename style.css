@@ -1,0 +1,72 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    background:url(https://www.hdwallpapers.in/download/green_red_leafed_tree_branches_in_blur_background_4k_hd_lock_screen-HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.container{
+    color:black;
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%);
+    height:25rem;
+    width:30rem;
+    background:transparent;
+    border-radius:2rem;
+    padding:1rem;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 5rem rgb(0, 0, 0)
+}
+#number1{
+    margin-left:6rem;
+    font-size:1.2rem;
+}
+#weight{
+    margin-top:1rem;
+}
+#number2{
+    margin-left:6rem;
+    font-size:1.2rem;
+}
+input{
+    height:2rem;
+    border:none;
+    border-radius:2rem;
+    padding-left:1.1rem;
+}
+.weight{
+    margin-top:2rem;
+    
+}
+.btn{
+    margin-left:11rem;
+    margin-top:1.3rem;
+    padding:.5rem;
+    font-size:1.5rem;
+    border-radius:2rem;
+    border:none;
+    background-color:rgb(255, 77, 77);
+    color:white;
+}
+.btn:hover{
+    background-color: rgb(13, 170, 13);
+}
+.result{
+    margin-top:1rem;
+    text-align:center;
+}
+h1{
+    text-align: center;
+}
+.weight-guide{
+    line-height:.5rem;
+    text-align:center;
+}
