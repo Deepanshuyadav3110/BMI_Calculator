@@ -14,10 +14,10 @@ form.addEventListener('submit', function(e){
     }
     else{
         const bmi = (weight / ((height*height)/10000)).toFixed(2);
-        if(weight<18.6){
+        if(bmi<18.6){
             result.innerHTML=` ${bmi} Under Weight`;
         }
-        else if(weight>=18.6 || weight<=24.9){
+        else if(bmi>=18.6 && bmi<=24.9){
             result.innerHTML=` ${bmi} Good Weight`;
         }
         else{
